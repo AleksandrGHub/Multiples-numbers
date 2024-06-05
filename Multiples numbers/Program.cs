@@ -6,8 +6,8 @@
         {
             int minNumber = 100;
             int maxNumber = 999;
-            int minRandomNumber = 1;
-            int maxRandomNumber = 28;
+            int minRandomNumber = 50;
+            int maxRandomNumber = 150;
             int quantityNaturalNumber = 0;
             int reduced;
             int randomNumber;
