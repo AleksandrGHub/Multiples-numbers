@@ -4,10 +4,10 @@
     {
         static void Main(string[] args)
         {
-            int minNumber = 100;
-            int maxNumber = 999;
-            int minRandomNumber = 50;
-            int maxRandomNumber = 150;
+            int minNumber = 50;
+            int maxNumber = 150;
+            int minRandomNumber = 10;
+            int maxRandomNumber = 25;
             int quantityNaturalNumber = 0;
             int reduced;
             int randomNumber;
