@@ -9,20 +9,19 @@
             int minRandomNumber = 10;
             int maxRandomNumber = 25;
             int quantityNaturalNumber = 0;
-            int reduced;
             int randomNumber;
+            int number = 0;
             Random random = new Random();
 
             randomNumber = random.Next(minRandomNumber, maxRandomNumber);
 
-            for (int i = minNumber; i <= maxNumber; i++)
+            for (int i = 0; i <= maxNumber; i++)
             {
-                for (reduced = i; reduced >= randomNumber; reduced -= randomNumber)
+                number += randomNumber;
+
+                if (number >= minNumber && number <= maxNumber)
                 {
-                    if (reduced == randomNumber)
-                    {
-                        quantityNaturalNumber++;
-                    }
+                    quantityNaturalNumber++;
                 }
             }
 
